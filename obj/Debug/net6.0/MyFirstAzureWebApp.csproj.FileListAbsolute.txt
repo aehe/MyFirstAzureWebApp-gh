@@ -1,0 +1,1 @@
+C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.dll
