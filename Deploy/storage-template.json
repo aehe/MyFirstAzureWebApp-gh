@@ -13,7 +13,7 @@
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2021-08-01",
             "name": "[parameters('storageAccounts_demobicepstorage_name')]",
-            "location": "West US",
+            "location": "Southeast Asia",
             "sku": {
                 "name": "Standard_LRS",
                 "tier": "Standard"
