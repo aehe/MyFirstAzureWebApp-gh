@@ -24,4 +24,7 @@ C:\tmpwork\MyFirstAzureWebApp\obj\Debug\net6.0\refint\MyFirstAzureWebApp.dll
 C:\tmpwork\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
 C:\tmpwork\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
 C:\tmpwork\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
-C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\Deploy\ARM\azuredeploy.json
+C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\Deploy\appservice-parameters.json
+C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\Deploy\appservice-template.json
+C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\Deploy\storage-parameters.json
+C:\tmpwork\MyFirstAzureWebApp\bin\Debug\net6.0\Deploy\storage-template.json
