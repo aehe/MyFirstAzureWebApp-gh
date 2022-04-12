@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {}
+    "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj": {}
   },
   "projects": {
-    "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {
+    "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+        "projectUniqueName": "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj",
         "projectName": "MyFirstAzureWebApp",
-        "projectPath": "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
-        "packagesPath": "C:\\Users\\aplapako\\.nuget\\packages\\",
-        "outputPath": "C:\\tmpwork\\MyFirstAzureWebApp\\obj\\",
+        "projectPath": "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj",
+        "packagesPath": "/var/nuget",
+        "outputPath": "/workspaces/MyFirstAzureWebApp-gh/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
