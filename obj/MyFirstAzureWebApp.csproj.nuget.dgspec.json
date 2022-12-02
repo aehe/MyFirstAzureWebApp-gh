@@ -14,14 +14,21 @@
         "outputPath": "/workspaces/MyFirstAzureWebApp-gh/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "/home/codespace/.nuget/NuGet/NuGet.Config"
+=======
+          "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 4b9b65b (test commit)
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+<<<<<<< HEAD
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
+=======
+>>>>>>> 4b9b65b (test commit)
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -43,7 +50,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +63,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 4b9b65b (test commit)
         }
       }
     }

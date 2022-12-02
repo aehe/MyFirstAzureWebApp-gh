@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DIZvKPrYdCJRufLAgOJ5nQOLALEIVoqEZNIGzcRkiadAtgCZvUgIs7JAP8jOo0dZaFLiNj1ByYVAFBiFJ1wpbA==",
+=======
+  "dgSpecHash": "LcDDIYH8HiqnQ84CHASB4FFZNAFUDmTaWwcbJ4J+c8dA0QAIFx8qP4xgwPBOmQ11c7jmMA8t+I6pdO9m3FkKMQ==",
+>>>>>>> 4b9b65b (test commit)
   "success": true,
   "projectFilePath": "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj",
   "expectedPackageFiles": [],
