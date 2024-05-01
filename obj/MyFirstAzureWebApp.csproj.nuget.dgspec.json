@@ -15,20 +15,31 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "/home/codespace/.nuget/NuGet/NuGet.Config"
 =======
           "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> 4b9b65b (test commit)
+=======
+          "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 5d88a33 (test commit)
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
 =======
 >>>>>>> 4b9b65b (test commit)
+=======
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+>>>>>>> 5d88a33 (test commit)
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -39,6 +50,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,10 +80,14 @@
             }
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
 >>>>>>> 4b9b65b (test commit)
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+>>>>>>> 5d88a33 (test commit)
         }
       }
     }
