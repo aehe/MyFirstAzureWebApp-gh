@@ -8,48 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "/var/nuget": {}
-=======
     "C:\\Users\\aplapako\\.nuget\\packages\\": {}
->>>>>>> 4b9b65b (test commit)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj",
+      "projectUniqueName": "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
       "projectName": "MyFirstAzureWebApp",
-      "projectPath": "/workspaces/MyFirstAzureWebApp-gh/MyFirstAzureWebApp.csproj",
-      "packagesPath": "/var/nuget",
-      "outputPath": "/workspaces/MyFirstAzureWebApp-gh/obj/",
+      "projectPath": "C:\\tmpwork\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+      "packagesPath": "C:\\Users\\aplapako\\.nuget\\packages\\",
+      "outputPath": "C:\\tmpwork\\MyFirstAzureWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
-=======
-        "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 4b9b65b (test commit)
-=======
         "C:\\Users\\aplapako\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 5d88a33 (test commit)
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
-=======
->>>>>>> 4b9b65b (test commit)
-=======
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
->>>>>>> 5d88a33 (test commit)
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
@@ -89,15 +68,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> 4b9b65b (test commit)
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
->>>>>>> 5d88a33 (test commit)
       }
     }
   }
