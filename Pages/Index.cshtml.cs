@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyFirstAzureWebApp.Pages
 {
-    public class SignUpModel : PageModel
+    public class IndexModel : PageModel
     {
         [BindProperty]
         public SignUpInputModel Input { get; set; }
