@@ -6,28 +6,25 @@
 
 <h1>Sign Up</h1>
 
-@if (Model.SuccessMessage != null)
+@if (Model.IsEmailConfirmed)
 {
-    <div class="alert alert-success">@Model.SuccessMessage</div>
+    <p>Email confirmed! You can now log in.</p>
 }
-
-@if (Model.ErrorMessage != null)
+else
 {
-    <div class="alert alert-danger">@Model.ErrorMessage</div>
+    <form method="post">
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Password" required />
+        </div>
+        <div>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="ConfirmPassword" required />
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
 }
-
-<form method="post">
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" name="Email" required>
-    </div>
-    <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" class="form-control" id="password" name="Password" required>
-    </div>
-    <div class="form-group">
-        <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign Up</button>
-</form>
