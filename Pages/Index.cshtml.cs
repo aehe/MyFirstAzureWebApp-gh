@@ -5,9 +5,15 @@ namespace MyFirstAzureWebApp.Pages;
 
 public class IndexModel : PageModel
 {
-    // Other properties and methods...
+    private readonly ILogger<IndexModel> _logger;
 
-    public bool IsEmailConfirmed { get; set; } // Add this line
+    public IndexModel(ILogger<IndexModel> logger)
+    {
+        _logger = logger;
+    }
 
-    // Other properties and methods...
+    public void OnGet()
+    {
+
+    }
 }
