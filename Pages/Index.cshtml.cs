@@ -5,9 +5,15 @@ namespace MyFirstAzureWebApp.Pages;
 
 public class IndexModel : PageModel
 {
-    // Other properties...
+    private readonly ILogger<IndexModel> _logger;
 
-    public string ErrorMessage { get; set; }
+    public IndexModel(ILogger<IndexModel> logger)
+    {
+        _logger = logger;
+    }
 
-    // Other methods...
-}
+    public void OnGet()
+    {
+
+    } // This closes the OnGet method
+} // This closes the IndexModel class
